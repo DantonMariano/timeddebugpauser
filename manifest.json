@@ -1,0 +1,18 @@
+{
+    "name": "Timed Debug Pauser",
+    "description": "Your one and only Timed Debug Pauser!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html"
+    },
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ],
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "scripting"
+    ]
+}
